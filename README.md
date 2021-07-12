@@ -5,7 +5,7 @@ Chatbud is a Realtime Chat Application made using [NodeJS](https://nodejs.org/en
 
 ## Installation
 
-Install NodeJS from [https://nodejs.org/en/](https://nodejs.org/en/). \
+Install NodeJS from [https://nodejs.org/en/](https://nodejs.org/en/).
 
 Install SocketIO using the following command in the terminal:  
 
