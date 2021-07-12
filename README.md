@@ -10,7 +10,7 @@ Install NodeJS from [https://nodejs.org/en/](https://nodejs.org/en/).
 Install SocketIO using the following command in the terminal:  
 
 ```bash
-npm install socket.io
+npm install -g socket.io
 ```
 
 Install nodemon using the following command in the terminal:  
@@ -21,9 +21,9 @@ npm install -g nodemon
 
 ## Usage
 
-Go to terminal and run following commands: 
+Go to terminal, open location where project is saved , and run the following commands: 
 ```bash
-npm init 
+cd node-server 
 
 nodemon index.js
 ```
