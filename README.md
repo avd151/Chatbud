@@ -30,7 +30,7 @@ nodemon index.js
 
 ## Visuals
 
+![Main Page](./screenshots/4.png | height=200 | width=800)
+![Join Chat Page](./screenshots/3.png)
 ![](./screenshots/1.png)
 ![](./screenshots/2.png)
-![](./screenshots/3.png)
-![](./screenshots/4.png)
