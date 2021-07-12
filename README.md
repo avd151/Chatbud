@@ -22,7 +22,7 @@ npm install -g nodemon
 ## Usage
 
 Go to terminal and run following commands: 
-```javascript
+```bash
 npm init 
 
 nodemon index.js
