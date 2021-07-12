@@ -1,0 +1,85 @@
+.logo {
+  /* center */
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: rgb(193, 236, 34);
+  /* background-image: linear-gradient(rgb(233, 243, 89), rgb(209, 236, 164));
+   */
+  height: 100vh;
+}
+h1{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(7, 105, 68);
+    text-align: center;
+}
+.container {
+  max-width: 955px;
+  background-color: rgb(240, 189, 24);
+  margin: auto;
+  padding: 20px;
+  height: 60vh;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+}
+
+.message {
+  background-color: rgb(31, 202, 137);
+  color: white;
+  font-size: large;
+  width: 25%;
+  padding: 12px;
+  margin: 20px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+}
+
+#messageInp {
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 36px;
+  margin-top: 5px;
+  color: black;
+  font-size: 22px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 40px;
+  padding: 0 20px 0 10px;
+  background-color: rgb(31, 202, 137);
+  font-size: large;
+  color: white;
+  text-align: center;
+}

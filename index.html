@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbud - RealTime Chat Application</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Standalone js built to connect server to client -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="assets/chat-logo.jpg" alt="Chatbud" />
+      <h1>Welcome to Chatbud App!</h1>
+    </nav>
+    <div class="container">
+      <!-- <div class="message left"></div>
+      <div class="message right"></div> -->
+    </div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp" required/>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
